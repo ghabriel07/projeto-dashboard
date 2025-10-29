@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background: url("../img/1376072.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login {
+    position: relative;
+    width: 700px;
+    height: 480px;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.46);
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    padding: 30px;
+    text-align: center;
+    overflow: hidden;
+    background: rgba(255,255,255,0.1);
+    padding: 30px 40px;
+    color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.login *{
+    position: relative;
+    z-index: 1;
+}
+
+h2{
+color: #fff;
+font-size: 1.4rem;
+margin-bottom: 15px;
+}
+
+h2 span {
+    color: red;
+}
+
+label{
+    display: block;
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 9px;
+    margin-top: 6px;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+button {
+    width: 10%;
+    background: red;
+    color: white;
+    border: none;
+    padding: 11px;
+    margin-top: 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+button:hover {
+    transform: translateY(-2PX);
+    background: black;
+}
+
+.cadastro {
+    text-align: center;
+    margin-top: 14px;
+    color: white;
+    font-size: 0.95rem;
+}
+
+    .cadastro a {
+        color: red;
+        text-decoration: none;
+    }
+

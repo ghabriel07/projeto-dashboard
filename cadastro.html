@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Sistema</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="container">
+            <h2>cria seu cadastro</h2>
+            <div class="tipo-pessoa">
+                <label><input type="radio" name="tipo" checked> Pessoa fisica </label>
+                <label><input type="radio" name="tipo" checked> Pessoa juridica </label>
+            </div>
+            <form>
+                <div class="group">
+                    <div class="box">
+                        <label>Nome<span>*</span></label>
+                        <input type="text" required>
+                    </div>
+                    <div class="box">
+                        <label>Sobrenome<span>*</span></label>
+                        <input type="text" required>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <label>CPF<span>*</span></label>
+                    <input type="text" maxlength="14" placeholder="000.000.000-00" required>
+                </div>
+
+                <div class="box">
+                    <label>CNPJ<span>*</span></label>
+                    <input type="text" maxlength="18" placeholder="00.000.000/0000-00" required>
+                </div>
+
+                <div class="box">
+                    <label>Telefone<span>*</span></label>
+                    <input type="tel" placeholder="(DDD) Telefone" required>
+                </div>
+
+                <div class="box">
+                    <label>E-mail<span>*</span></label>
+                    <input type="email"  placeholder="@email.com" required>
+                </div>
+
+                <div class="box">
+                    <label>Senha<span>*</span></label>
+                    <input type="password" id="senha" placeholder="Minimo de 8 caractees" required>
+                </div>
+
+                <button type="submit" class="btn">cadastre-se</button>
+                <a class="CANCELAR" href="/">Cancelar</a>
+
+            </form>
+    </div>
+            <script src="/js/cadastro.js"></script>
+    </body>
+    </html>
